@@ -1,3 +1,118 @@
-main-bg{
-  
+.content-desc{
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  margin: 60px auto;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.content-desc p{
+  max-width: 45ch;
+}
+
+.content-desc::after{
+  content: url(../../img/vector.svg);
+  z-index: -1;
+  top: -45px;
+  right: -5px;
+  position: absolute;
+}
+
+.container-produtos{
+  display: grid;
+  grid-template-columns: repeat(3,220px);
+  gap: 32px;
+}
+
+.produtos-item img{
+  border-radius: 5px;
+}
+
+.produtos-item h3{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.produtos-item h3:hover{
+  color: var(--cor-p2)
+}
+
+.produtos-item .preco{
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+  position: absolute;
+  right: 0px;
+  color: var(--cor-c4);
+  background: var(--cor-p4);
+}
+
+.produtos-item p{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -5px;
+  gap: 2px
+}
+
+.produtos-item p::before{
+  content: url(../../img/Star_fill.svg);
+  margin-left: 2px;
+}
+
+.produtos-item .no-rating::before{
+  content: url(../../img/Star.svg);
+  margin-left: 2px;
+}
+
+.produtos-item .sold-out::after{
+  content: "Sold out";
+  font-size: 0.875rem;
+  color: var(--cor-p1);
+  padding-top: 2px;
+  position: absolute;
+  right: -4px;
+}
+
+@media(max-width:1000px){
+  .container-bg{
+    top: -80px;
+    max-width: 800px;
+    height: 1060px;
+  }
+  .container-content{
+    grid-template-columns: repeat(2,220px);
+  }
+  .container-produtos{
+    grid-template-columns: repeat(2,220px);
+  }
+  .content-desc::after{
+    content: url(../../img/vector.svg);
+    z-index: -1;
+    top: -45px;
+    right: 5px;
+    position: absolute;
+  }
+}
+
+@media(max-width:800px){
+  .container-bg{
+    top: -60px;
+    max-width: 300px;
+    height: 1920px;
+  }
+  .container-content{
+    grid-template-columns: 200px;
+    gap: 160px;
+  }
+  .container-produtos{
+    grid-template-columns: 200px;
+  }
+  .content-desc::after{
+    display: none;
+  }
 }

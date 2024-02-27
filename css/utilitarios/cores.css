@@ -1,6 +1,7 @@
 :root{
-  --cor-c3: #1b1d1f;
-  --cor-c2: #111315;
+  --cor-c4: #1b1d1f;
+  --cor-c3: #111315;
+  --cor-c2: #6E757D;
   --cor-c1: #6f757c;
   --cor-p4: #bee3cc;
   --cor-p3: #fef7ee;
@@ -9,6 +10,10 @@
 }
 
 /* Variações de Cinza */
+.cor-c4{
+  color:var(--cor-c4);
+}
+
 .cor-c3{
   color:var(--cor-c3);
 }

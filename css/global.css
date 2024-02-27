@@ -1,0 +1,21 @@
+body {
+  background: var(--cor-c4);
+}
+
+.container-bg {
+  max-width: 1000px;
+  height: 800px;
+  position: relative;
+  top: -120px;
+  background: var(--cor-c3);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.container-content {
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  grid-template-rows: repeat(3, 220px);
+  gap: 32px;
+  justify-content: center;
+}

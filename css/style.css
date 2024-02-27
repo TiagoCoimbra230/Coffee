@@ -1,6 +1,9 @@
 /* Reset */
 @import url(reset.css);
 
+/* Geral */
+@import url(global.css);
+
 /* Utilitário CSS */
 @import url(utilitarios/componentes.css);
 @import url(utilitarios/tipografia.css);

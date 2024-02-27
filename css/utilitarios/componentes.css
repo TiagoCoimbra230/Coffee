@@ -1,10 +1,7 @@
-/* Container */
-.container{
-  max-width: 1280px;
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: auto;
-  margin-left: auto;
+.botao{
+  padding: 10px;
 }
-
+.botao:hover{
+  background-color: var(--cor-c2);
+  border-radius: 5px;
+}

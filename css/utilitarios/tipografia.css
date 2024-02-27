@@ -1,9 +1,14 @@
 /* Tipografia */
 
 .font-g{
-  font: 600 2rem/1 "DM Sans", sans-serif;
+  font: 700 2rem/1 "DM Sans", sans-serif;
+  letter-spacing: 0.015rem;
 }
 
 .font-m{
-  font: 500 1rem/1 "DM Sans", sans-serif;
+  font: 700 1rem/1 "DM Sans", sans-serif;
+}
+
+.font-p{
+  font: 600 0.875rem/1 "DM Sans", sans-serif;
 }
