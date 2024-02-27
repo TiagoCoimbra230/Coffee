@@ -1,0 +1,40 @@
+:root{
+  --cor-c3: #1b1d1f;
+  --cor-c2: #111315;
+  --cor-c1: #6f757c;
+  --cor-p4: #bee3cc;
+  --cor-p3: #fef7ee;
+  --cor-p2: #f6c768;
+  --cor-p1: #ed735d; 
+}
+
+/* Variações de Cinza */
+.cor-c3{
+  color:var(--cor-c3);
+}
+
+.cor-c2{
+  color:var(--cor-c2);
+}
+
+.cor-c1{
+  color:var(--cor-c1);
+}
+
+/* Cores Primarias */
+
+.cor-p4{
+  color:var(--cor-p4);
+}
+
+.cor-p3{
+  color:var(--cor-p3);
+}
+
+.cor-p2{
+  color:var(--cor-p2);
+}
+
+.cor-p1{
+  color:var(--cor-p1);
+}

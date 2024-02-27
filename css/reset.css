@@ -1,0 +1,22 @@
+body,h1,ul,li,h2,h3,span,a{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+img[src$=".jpg"]{
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+}
